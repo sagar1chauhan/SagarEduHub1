@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+   background-color:var(--bg-color);
+}
+& .logo {
+    width:30%;
+    height:4.7rem;
+  padding:20px;
+    border:5px solid var(--heading-color);
+    align-items: center;
+   /* border-left:15rem solid var(--white-color); */
+  /* display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; */
+
+    & a {
+         color: var(--white-color);
+         font-size:21px;
+         font-weight:800;
+        text-decoration:none;
+       /* position: relative;
+        display:flex;
+          align-items:center;
+          justify-content:flex-start; */
+          left:10rem;
+         top:-0.3rem; 
+        &::before {
+            content: "SAGAR";
+            /* position:absolute; */
+            color:var(--bg-color);
+            background-color: var(--white-color);
+        left:-6rem;
+         top:-0.3rem;
+            font-size:21px;
+            font-weight:800;
+            border:4px solid var(--white-color);
+           
+        } 
+    }
+}
+:root {
+    --main-color: #0062ff;
+    --supporting-color: #dededebb;
+    --supporting1-color: #ede9e9ec;
+    --font-color: #424242;
+    --heading-color: #000a19;
+    --para-color: #504e4d;
+    /* --bg-color: #3861f8ba;#679eff */
+    --bg-color: #3d86fa;
+    --bor-color: #ff0000;
+    --btn-color: #0000ff;
+    --btn-hover-bg-color: #003b99;
+    --btn-box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+    --white-color: #fff;
+}
